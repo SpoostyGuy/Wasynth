@@ -29,7 +29,6 @@ impl AsIEName for External {
 			Self::Table => "table_list",
 			Self::Memory => "memory_list",
 			Self::Global => "global_list",
-			Self::Tag => unimplemented!(),
 		}
 	}
 }
